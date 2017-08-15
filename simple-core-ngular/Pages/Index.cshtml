@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple-Core-Ngular</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="~/App/favicon.ico">
+</head>
+<body>
+
+    <h1>@Model.Message</h1>
+
+    <app-root>Loading...</app-root>
+    <script type="text/javascript" src="~/App/inline.bundle.js"></script>
+    <script type="text/javascript" src="~/App/polyfills.bundle.js"></script>
+    <script type="text/javascript" src="~/App/styles.bundle.js"></script>
+    <script type="text/javascript" src="~/App/vendor.bundle.js"></script>
+    <script type="text/javascript" src="~/App/main.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  simple-core-ngular:
+    image: simple-core-ngular
+    build:
+      context: ./simple-core-ngular
+      dockerfile: Dockerfile
